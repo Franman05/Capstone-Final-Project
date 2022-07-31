@@ -197,11 +197,11 @@ export const Sportspage = withRouter(( props:SportspageProps ) => {
         },
         {
             text: 'Sign In',
-            onClick: () => history.push('/signin')
+            onClick: () => history.push('/SignIn')
         },
         {
             text: 'About',
-            onClick: () => history.push('/about')
+            onClick: () => history.push('/About')
         },
         {
             text: 'Contact',
